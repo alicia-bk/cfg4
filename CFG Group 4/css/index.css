@@ -1,0 +1,132 @@
+body{
+    font-family:'raleway', sans-serif;
+    color:#1F74AB
+}
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    padding:2px;
+    margin-top: 0;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding:2px;
+    color:white;
+}
+#tagline{
+    text-align: center;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding:2px;
+    color: #1F74AB;
+}
+form{
+    display: flexbox;
+    float:left;
+}
+input{
+    float:right;
+    padding-right: 15px;
+}
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+.container {
+    display: flex;
+    padding: 20px;
+    width:100%;
+  }
+nav {
+    background-color: #1F74AB;
+    color: #A6D4F1;
+    font-family:'raleway', sans-serif;
+    text-transform: uppercase;
+    height: 75px;
+    width:100%;
+    margin:auto;
+    padding:0;
+}
+.nav{
+    border:1px;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+
+#chatbox
+{
+    width: 50em;
+    height: 65em;
+    margin: auto;
+    background: rgb(255, 255, 254);
+}
+.m-input-100\%{
+    width: 100%;
+}
+.m-button-100\%{
+    width: 100%;
+}
+.m-padded-mini{
+    padding: 0.2em !important;
+}
+.m-padded-tiny{
+    padding: 0.3em !important;
+}
+.m-padded-td-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.m-padded-tp-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.m-padded-tp-small{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.m-padded-tp{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.m-padded-tp-Large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.m-padded-tp-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padded-tp-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+.m-padded-tp-massive{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+.m-head-portrait{
+    width: 40px !important;
+    height: 40px !important;
+}
+.m-padded-lr-responsive{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+footer{
+    background-color: #1F74AB;
+    color:#A6D4F1
+}
