@@ -1,0 +1,184 @@
+body{
+    font-family:'raleway', sans-serif;
+    color:#1F74AB
+}
+
+
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    padding:2px;
+    margin-top: 0;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding:2px;
+    color:white;
+}
+#tagline{
+    text-align: center;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding:2px;
+    color: #1F74AB;
+}
+
+form{
+    display: flexbox;
+    float:left;
+}
+
+input{
+    float:right;
+    padding-right: 15px;
+}
+
+
+#container {
+    position: relative;    
+}
+
+#join {
+   position: absolute;
+   top: 10px;
+   left: 10px; 
+   border-radius: 20%;
+    
+   padding: 5px;
+   background-color: white;
+   opacity: 0.7;
+   text-align: center;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+    
+.container {
+    display: flex;
+    padding: 20px;
+    width:100%;
+  }
+
+nav {
+    background-color: #1F74AB;
+    color: #A6D4F1;
+    font-family:'raleway', sans-serif;
+    text-transform: uppercase;
+    height: 75px;
+    width:100%;
+    margin:auto;
+    padding:0;
+}
+
+.nav{
+    border:1px;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+a:hover{
+    background-color: #A6D4F1;
+    color:#1F74AB;
+    cursor: pointer;
+
+}
+
+#inspo {
+    background-image: url(../Images/Beach.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;  
+    background-size: cover;
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    float:left;
+    text-align: center;
+    padding:200px 0;
+    border-radius: 100%;
+    color:white;
+    opacity: 0.8;
+}
+#inspo:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#blog {
+    background-image: url(../Images/Giraffe.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;  
+    background-size: cover;
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding:200px 0;
+    border-radius: 100%;
+    color:white;
+    opacity: 0.8;
+}
+
+#blog:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#explore {
+    background-image: url(../Images/Plane.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;  
+    background-size: cover;
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin:auto;
+    text-align: center;
+    padding:200px 0;
+    border-radius: 100%;
+    color:white;
+    opacity: 0.8;
+}   
+#explore:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+footer{
+    background-color: #1F74AB;
+    color:#A6D4F1
+}
+
+
+#button{
+    background-color: #1F74AB;
+    color:white;
+    border-radius: 20%;
+    border: 0;
+    left:50%;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: #A6D4F1;
+    color:white;
+}
